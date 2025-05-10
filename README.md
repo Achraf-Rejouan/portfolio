@@ -16,7 +16,9 @@ This portfolio project was built using the latest features of Next.js 13 and Typ
 - **Light & Dark Mode**: User preference ensured with theme support.
 - **Responsive Design**: Optimized for various screen sizes.
 
+## Visual Preview
 
+![Portfolio Screenshot](./public/capture.png) 
 
 ## Setup
 
