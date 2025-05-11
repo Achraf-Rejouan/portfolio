@@ -18,26 +18,24 @@ export default function About() {
       id="about"
     >
       <SectionHeading>About me</SectionHeading>
-      <p className="mb-3">
+      <p className="mb-3 text-lg text-neutral-800 dark:text-neutral-200">
         I'm currently pursuing a degree in{" "}
-        <span className="font-medium">Information Systems Development</span>, with graduation expected next year.
-        <br></br>My primary focus is {" "}
-        <span className="font-semibold">backend Engineering</span>,{" "}
-        where I enjoy building robust systems and solving complex problems.
-        I'm experienced with Node.js and Express, and I've worked with databases like
-        <span className="font-medium"> MySQL, MongoDB, PostgreSQL, and OracleDB</span>.
-        While backend is my main area of interest,{" "}I'm also learning frontend frameworks such as React and Next.js
-        <span className="font-medium">
-          to become a more well-rounded developer
-        </span>
-        . I'm always curious and motivated to learn new technologies and improve my skills.{" "}
-        <span className="font-medium">full-time position</span> as a software
-        developer.
+        <span className="font-bold text-neutral-900 dark:text-white">Information Systems Development</span>, with graduation expected next year.
+        <br />
+        My primary focus is{" "}
+        <span className="font-bold text-neutral-900 dark:text-white">Backend Engineering</span>, where I enjoy building robust systems and solving complex problems.
+        I'm experienced with <span className="font-semibold text-neutral-900 dark:text-white">Node.js</span> and <span className="font-semibold text-neutral-900 dark:text-white">Express</span>, and I've worked with databases like
+        <span className="font-bold text-neutral-900 dark:text-white"> MySQL, MongoDB, PostgreSQL, and OracleDB</span>.
+        <br />
+        While backend is my main area of interest, I'm also learning frontend frameworks such as <span className="font-semibold text-neutral-900 dark:text-white">React</span> and <span className="font-semibold text-neutral-900 dark:text-white">Next.js</span>
+        <span className="font-bold text-neutral-900 dark:text-white"> to become a more well-rounded developer</span>.
+        <br />
+        I'm always curious and motivated to learn new technologies and improve my skills. Currently, I'm seeking a <span className="font-bold text-neutral-900 dark:text-white">full-time position</span> as a software developer.
       </p>
 
-      <p>
-        <span className="italic">When I'm not coding</span>, I enjoy exploring new subjects and expanding my knowledge beyond tech.{" "}
-        <span className="font-medium">I'm passionate about continuous learning and always looking for</span> opportunities to grow.{" "}
+      <p className="text-lg text-neutral-800 dark:text-neutral-200">
+        <span className="italic text-neutral-900 dark:text-white">When I'm not coding</span>, I enjoy exploring new subjects and expanding my knowledge beyond tech.
+        <span className="font-bold text-neutral-900 dark:text-white"> I'm passionate about continuous learning and always looking for opportunities to grow.</span>
       </p>
     </motion.section>
   );
