@@ -31,7 +31,7 @@ export default function Intro() {
             }}
           >
           <Image
-            src="/photo.jpeg"
+            src="/photoMe.jpg"
             alt="Achraf portrait"
             width={384}
             height={384}
