@@ -2,8 +2,9 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { SiNodedotjs } from "react-icons/si";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
+import fadhakkerImg from "@/public/fadhakker.png";
+import chattyImg from "@/public/chatty.png";
+import symfonyImg from "@/public/symfonyImg.png";
 import wordanalyticsImg from "@/public/wordanalytics.png";
 
 export const links = [
@@ -62,59 +63,68 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "Subscription Management System",
+    title: "fa-dhakker - prayer learning platform",
     description:
-      "A subscription management system API built with Node.js and Express. It allows users to manage their subscriptions and payments.",
-    tags: ["Node.js", "Express", "MongoDB", "REST API"],
-    imageUrl: corpcommentImg,
+      "fa-dhakker/فَذَكِّر is a comprehensive Islamic prayer learning platform that teaches users how to perform the five daily prayers (Salah) step-by-step.",
+    tags: ["Next.js", "TypeScript", "Tailwind CSS", "shadcn/ui"],
+    imageUrl: fadhakkerImg,
+    url: "https://fa-dhakker.vercel.app/",
   },
   {
-    title: "real time chat application",
+    title: "chatty - real time chat application",
     description:
       "A real-time chat application built with React, TypeScript, Node.js, and Socket.io. It allows users to chat in real-time.",
     tags: ["React", "TypeScript", "Node.js", "Tailwind", "Express", "Vite", "Socket.io"],
-    imageUrl: rmtdevImg,
+    imageUrl: chattyImg,
+    url: "https://real-time-chat-app-cpsx.onrender.com/",
   },
   {
-    title: "Express PostgreSQL REST API",
+    title: "CRUD-Symfony7-web-app",
     description:
-      "A REST API built with Node.js, Express, and PostgreSQL. It allows users to manage their data and perform CRUD operations.",
-    tags: ["Node.js", "Express", "PostgreSQL"],
-    imageUrl: wordanalyticsImg,
+      "A simple CRUD web application built with Symfony 7. It allows users to create, read, update, and delete data.",
+    tags: ["PHP", "Symfony 7", "Twig", "Bootstrap"],
+    imageUrl: symfonyImg,
+    url: "https://github.com/Achraf-Rejouan/CRUD-Symfony7-web-app?tab=readme-ov-file",
   },
 ] as const;
 
 export const skillsData = [
+  "JAVA",
+  "Spring Boot",
+  "Spring Data JPA",
+  "Spring Security",
+  "Hibernate",
+  "Maven",
+  "Gradle",
+  "JUnit",
+  "Mockito",
+  "SQL",
+  "PL/SQL",
+  "RESTful API",
+  "WebSockets",
+  "OracleDB",
+  "PostgreSQL",
+  "MySQL",
   "HTML",
   "CSS",
   "JavaScript",
   "TypeScript",
   "JQuery",
+  "Angular",
   "React",
   "Next.js",
   "Node.js",
   "Express",
   "Tailwind CSS",
   "Bootstrap",
-  "Material UI",
   "Git",
   "GitHub",
   "Docker",
   "POSTMAN",
   "Prisma",
   "MongoDB",
-  "JAVA",
   "C",
   "PHP",
   "Symfony",
-  "SQL",
-  "SQLite",
-  "PL/SQL",
-  "REST API",
-  "GraphQL",
-  "Oracle",
-  "PostgreSQL",
-  "MySQL",
-  
   
 ] as const;
